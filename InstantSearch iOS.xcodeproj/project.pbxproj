@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B00A1552DBBD90C00377F80 /* InstantSearch_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B00A1542DBBD90C00377F80 /* InstantSearch_iOSApp.swift */; };
+		3B00A1572DBBD90C00377F80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B00A1562DBBD90C00377F80 /* ContentView.swift */; };
+		3B00A1592DBBD90D00377F80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B00A1582DBBD90D00377F80 /* Assets.xcassets */; };
+		3B00A15C2DBBD90D00377F80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B00A15B2DBBD90D00377F80 /* Preview Assets.xcassets */; };
+		3B00A1662DBBD90D00377F80 /* InstantSearch_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B00A1652DBBD90D00377F80 /* InstantSearch_iOSTests.swift */; };
+		3B00A1702DBBD90D00377F80 /* InstantSearch_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B00A16F2DBBD90D00377F80 /* InstantSearch_iOSUITests.swift */; };
+		3B00A1722DBBD90D00377F80 /* InstantSearch_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B00A1712DBBD90D00377F80 /* InstantSearch_iOSUITestsLaunchTests.swift */; };
+		3BC1F9422DBF30D3002083F7 /* InstantSearchSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3BC1F9412DBF30D3002083F7 /* InstantSearchSwiftUI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B00A1622DBBD90D00377F80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B00A1492DBBD90C00377F80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B00A1502DBBD90C00377F80;
+			remoteInfo = "InstantSearch iOS";
+		};
+		3B00A16C2DBBD90D00377F80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B00A1492DBBD90C00377F80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B00A1502DBBD90C00377F80;
+			remoteInfo = "InstantSearch iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B00A1512DBBD90C00377F80 /* InstantSearch iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "InstantSearch iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B00A1542DBBD90C00377F80 /* InstantSearch_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantSearch_iOSApp.swift; sourceTree = "<group>"; };
+		3B00A1562DBBD90C00377F80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B00A1582DBBD90D00377F80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B00A15B2DBBD90D00377F80 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B00A1612DBBD90D00377F80 /* InstantSearch iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "InstantSearch iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B00A1652DBBD90D00377F80 /* InstantSearch_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantSearch_iOSTests.swift; sourceTree = "<group>"; };
+		3B00A16B2DBBD90D00377F80 /* InstantSearch iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "InstantSearch iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B00A16F2DBBD90D00377F80 /* InstantSearch_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantSearch_iOSUITests.swift; sourceTree = "<group>"; };
+		3B00A1712DBBD90D00377F80 /* InstantSearch_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantSearch_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B00A14E2DBBD90C00377F80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC1F9422DBF30D3002083F7 /* InstantSearchSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B00A15E2DBBD90D00377F80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B00A1682DBBD90D00377F80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B00A1482DBBD90C00377F80 = {
+			isa = PBXGroup;
+			children = (
+				3B00A1532DBBD90C00377F80 /* InstantSearch iOS */,
+				3B00A1642DBBD90D00377F80 /* InstantSearch iOSTests */,
+				3B00A16E2DBBD90D00377F80 /* InstantSearch iOSUITests */,
+				3B00A1522DBBD90C00377F80 /* Products */,
+				3B00A17F2DBBD9F400377F80 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B00A1522DBBD90C00377F80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B00A1512DBBD90C00377F80 /* InstantSearch iOS.app */,
+				3B00A1612DBBD90D00377F80 /* InstantSearch iOSTests.xctest */,
+				3B00A16B2DBBD90D00377F80 /* InstantSearch iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B00A1532DBBD90C00377F80 /* InstantSearch iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3B00A1542DBBD90C00377F80 /* InstantSearch_iOSApp.swift */,
+				3B00A1562DBBD90C00377F80 /* ContentView.swift */,
+				3B00A1582DBBD90D00377F80 /* Assets.xcassets */,
+				3B00A15A2DBBD90D00377F80 /* Preview Content */,
+			);
+			path = "InstantSearch iOS";
+			sourceTree = "<group>";
+		};
+		3B00A15A2DBBD90D00377F80 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3B00A15B2DBBD90D00377F80 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3B00A1642DBBD90D00377F80 /* InstantSearch iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B00A1652DBBD90D00377F80 /* InstantSearch_iOSTests.swift */,
+			);
+			path = "InstantSearch iOSTests";
+			sourceTree = "<group>";
+		};
+		3B00A16E2DBBD90D00377F80 /* InstantSearch iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B00A16F2DBBD90D00377F80 /* InstantSearch_iOSUITests.swift */,
+				3B00A1712DBBD90D00377F80 /* InstantSearch_iOSUITestsLaunchTests.swift */,
+			);
+			path = "InstantSearch iOSUITests";
+			sourceTree = "<group>";
+		};
+		3B00A17F2DBBD9F400377F80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B00A1502DBBD90C00377F80 /* InstantSearch iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B00A1752DBBD90D00377F80 /* Build configuration list for PBXNativeTarget "InstantSearch iOS" */;
+			buildPhases = (
+				3B00A14D2DBBD90C00377F80 /* Sources */,
+				3B00A14E2DBBD90C00377F80 /* Frameworks */,
+				3B00A14F2DBBD90C00377F80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "InstantSearch iOS";
+			packageProductDependencies = (
+				3BC1F9412DBF30D3002083F7 /* InstantSearchSwiftUI */,
+			);
+			productName = "InstantSearch iOS";
+			productReference = 3B00A1512DBBD90C00377F80 /* InstantSearch iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B00A1602DBBD90D00377F80 /* InstantSearch iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B00A1782DBBD90D00377F80 /* Build configuration list for PBXNativeTarget "InstantSearch iOSTests" */;
+			buildPhases = (
+				3B00A15D2DBBD90D00377F80 /* Sources */,
+				3B00A15E2DBBD90D00377F80 /* Frameworks */,
+				3B00A15F2DBBD90D00377F80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B00A1632DBBD90D00377F80 /* PBXTargetDependency */,
+			);
+			name = "InstantSearch iOSTests";
+			productName = "InstantSearch iOSTests";
+			productReference = 3B00A1612DBBD90D00377F80 /* InstantSearch iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B00A16A2DBBD90D00377F80 /* InstantSearch iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B00A17B2DBBD90D00377F80 /* Build configuration list for PBXNativeTarget "InstantSearch iOSUITests" */;
+			buildPhases = (
+				3B00A1672DBBD90D00377F80 /* Sources */,
+				3B00A1682DBBD90D00377F80 /* Frameworks */,
+				3B00A1692DBBD90D00377F80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B00A16D2DBBD90D00377F80 /* PBXTargetDependency */,
+			);
+			name = "InstantSearch iOSUITests";
+			productName = "InstantSearch iOSUITests";
+			productReference = 3B00A16B2DBBD90D00377F80 /* InstantSearch iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B00A1492DBBD90C00377F80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					3B00A1502DBBD90C00377F80 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					3B00A1602DBBD90D00377F80 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3B00A1502DBBD90C00377F80;
+					};
+					3B00A16A2DBBD90D00377F80 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3B00A1502DBBD90C00377F80;
+					};
+				};
+			};
+			buildConfigurationList = 3B00A14C2DBBD90C00377F80 /* Build configuration list for PBXProject "InstantSearch iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B00A1482DBBD90C00377F80;
+			packageReferences = (
+				3BC1F9402DBF2F43002083F7 /* XCRemoteSwiftPackageReference "instantsearch-ios" */,
+			);
+			productRefGroup = 3B00A1522DBBD90C00377F80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B00A1502DBBD90C00377F80 /* InstantSearch iOS */,
+				3B00A1602DBBD90D00377F80 /* InstantSearch iOSTests */,
+				3B00A16A2DBBD90D00377F80 /* InstantSearch iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B00A14F2DBBD90C00377F80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B00A15C2DBBD90D00377F80 /* Preview Assets.xcassets in Resources */,
+				3B00A1592DBBD90D00377F80 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B00A15F2DBBD90D00377F80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B00A1692DBBD90D00377F80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B00A14D2DBBD90C00377F80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B00A1572DBBD90C00377F80 /* ContentView.swift in Sources */,
+				3B00A1552DBBD90C00377F80 /* InstantSearch_iOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B00A15D2DBBD90D00377F80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B00A1662DBBD90D00377F80 /* InstantSearch_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B00A1672DBBD90D00377F80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B00A1722DBBD90D00377F80 /* InstantSearch_iOSUITestsLaunchTests.swift in Sources */,
+				3B00A1702DBBD90D00377F80 /* InstantSearch_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B00A1632DBBD90D00377F80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B00A1502DBBD90C00377F80 /* InstantSearch iOS */;
+			targetProxy = 3B00A1622DBBD90D00377F80 /* PBXContainerItemProxy */;
+		};
+		3B00A16D2DBBD90D00377F80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B00A1502DBBD90C00377F80 /* InstantSearch iOS */;
+			targetProxy = 3B00A16C2DBBD90D00377F80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B00A1732DBBD90D00377F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B00A1742DBBD90D00377F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B00A1762DBBD90D00377F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InstantSearch iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 922N7TF68N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "erichan.InstantSearch-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B00A1772DBBD90D00377F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InstantSearch iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 922N7TF68N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "erichan.InstantSearch-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B00A1792DBBD90D00377F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 922N7TF68N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "erichan.InstantSearch-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstantSearch iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InstantSearch iOS";
+			};
+			name = Debug;
+		};
+		3B00A17A2DBBD90D00377F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 922N7TF68N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "erichan.InstantSearch-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstantSearch iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InstantSearch iOS";
+			};
+			name = Release;
+		};
+		3B00A17C2DBBD90D00377F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 922N7TF68N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "erichan.InstantSearch-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "InstantSearch iOS";
+			};
+			name = Debug;
+		};
+		3B00A17D2DBBD90D00377F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 922N7TF68N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "erichan.InstantSearch-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "InstantSearch iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B00A14C2DBBD90C00377F80 /* Build configuration list for PBXProject "InstantSearch iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B00A1732DBBD90D00377F80 /* Debug */,
+				3B00A1742DBBD90D00377F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B00A1752DBBD90D00377F80 /* Build configuration list for PBXNativeTarget "InstantSearch iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B00A1762DBBD90D00377F80 /* Debug */,
+				3B00A1772DBBD90D00377F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B00A1782DBBD90D00377F80 /* Build configuration list for PBXNativeTarget "InstantSearch iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B00A1792DBBD90D00377F80 /* Debug */,
+				3B00A17A2DBBD90D00377F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B00A17B2DBBD90D00377F80 /* Build configuration list for PBXNativeTarget "InstantSearch iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B00A17C2DBBD90D00377F80 /* Debug */,
+				3B00A17D2DBBD90D00377F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3BC1F9402DBF2F43002083F7 /* XCRemoteSwiftPackageReference "instantsearch-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/algolia/instantsearch-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.26.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3BC1F9412DBF30D3002083F7 /* InstantSearchSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BC1F9402DBF2F43002083F7 /* XCRemoteSwiftPackageReference "instantsearch-ios" */;
+			productName = InstantSearchSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3B00A1492DBBD90C00377F80 /* Project object */;
+}

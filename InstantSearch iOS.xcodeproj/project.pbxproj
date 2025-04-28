@@ -15,6 +15,9 @@
 		3B00A1702DBBD90D00377F80 /* InstantSearch_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B00A16F2DBBD90D00377F80 /* InstantSearch_iOSUITests.swift */; };
 		3B00A1722DBBD90D00377F80 /* InstantSearch_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B00A1712DBBD90D00377F80 /* InstantSearch_iOSUITestsLaunchTests.swift */; };
 		3BC1F9422DBF30D3002083F7 /* InstantSearchSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3BC1F9412DBF30D3002083F7 /* InstantSearchSwiftUI */; };
+		3BC1F9442DBF3774002083F7 /* InstantSearchCore in Frameworks */ = {isa = PBXBuildFile; productRef = 3BC1F9432DBF3774002083F7 /* InstantSearchCore */; };
+		3BC1F9462DBF3779002083F7 /* InstantSearch in Frameworks */ = {isa = PBXBuildFile; productRef = 3BC1F9452DBF3779002083F7 /* InstantSearch */; };
+		3BC1F9482DBF377E002083F7 /* InstantSearchInsights in Frameworks */ = {isa = PBXBuildFile; productRef = 3BC1F9472DBF377E002083F7 /* InstantSearchInsights */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BC1F9422DBF30D3002083F7 /* InstantSearchSwiftUI in Frameworks */,
+				3BC1F9482DBF377E002083F7 /* InstantSearchInsights in Frameworks */,
+				3BC1F9462DBF3779002083F7 /* InstantSearch in Frameworks */,
+				3BC1F9442DBF3774002083F7 /* InstantSearchCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +161,9 @@
 			name = "InstantSearch iOS";
 			packageProductDependencies = (
 				3BC1F9412DBF30D3002083F7 /* InstantSearchSwiftUI */,
+				3BC1F9432DBF3774002083F7 /* InstantSearchCore */,
+				3BC1F9452DBF3779002083F7 /* InstantSearch */,
+				3BC1F9472DBF377E002083F7 /* InstantSearchInsights */,
 			);
 			productName = "InstantSearch iOS";
 			productReference = 3B00A1512DBBD90C00377F80 /* InstantSearch iOS.app */;
@@ -621,6 +630,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 3BC1F9402DBF2F43002083F7 /* XCRemoteSwiftPackageReference "instantsearch-ios" */;
 			productName = InstantSearchSwiftUI;
+		};
+		3BC1F9432DBF3774002083F7 /* InstantSearchCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BC1F9402DBF2F43002083F7 /* XCRemoteSwiftPackageReference "instantsearch-ios" */;
+			productName = InstantSearchCore;
+		};
+		3BC1F9452DBF3779002083F7 /* InstantSearch */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BC1F9402DBF2F43002083F7 /* XCRemoteSwiftPackageReference "instantsearch-ios" */;
+			productName = InstantSearch;
+		};
+		3BC1F9472DBF377E002083F7 /* InstantSearchInsights */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BC1F9402DBF2F43002083F7 /* XCRemoteSwiftPackageReference "instantsearch-ios" */;
+			productName = InstantSearchInsights;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

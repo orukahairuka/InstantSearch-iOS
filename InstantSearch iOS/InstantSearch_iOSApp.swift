@@ -8,10 +8,20 @@
 import SwiftUI
 
 @main
-struct InstantSearch_iOSApp: App {
+struct InstantSearchApp: App {
+    static let controller = SearchController()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ContentView(
+                    searchBoxController: InstantSearchApp.controller.searchBoxController,
+                    hitsController: InstantSearchApp.controller.hitsController
+                )
+            }
+            .onAppear {
+                InstantSearchApp.controller.searcher.search()
+            }
         }
     }
 }

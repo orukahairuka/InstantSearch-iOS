@@ -18,6 +18,8 @@
 		3BC1F9442DBF3774002083F7 /* InstantSearchCore in Frameworks */ = {isa = PBXBuildFile; productRef = 3BC1F9432DBF3774002083F7 /* InstantSearchCore */; };
 		3BC1F9462DBF3779002083F7 /* InstantSearch in Frameworks */ = {isa = PBXBuildFile; productRef = 3BC1F9452DBF3779002083F7 /* InstantSearch */; };
 		3BC1F9482DBF377E002083F7 /* InstantSearchInsights in Frameworks */ = {isa = PBXBuildFile; productRef = 3BC1F9472DBF377E002083F7 /* InstantSearchInsights */; };
+		3BC1F94A2DBF384F002083F7 /* addItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC1F9492DBF384F002083F7 /* addItem.swift */; };
+		3BC1F94D2DBF3BB1002083F7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3BC1F94C2DBF3BB1002083F7 /* FirebaseFirestore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,7 @@
 		3B00A16B2DBBD90D00377F80 /* InstantSearch iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "InstantSearch iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B00A16F2DBBD90D00377F80 /* InstantSearch_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantSearch_iOSUITests.swift; sourceTree = "<group>"; };
 		3B00A1712DBBD90D00377F80 /* InstantSearch_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantSearch_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3BC1F9492DBF384F002083F7 /* addItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 				3BC1F9422DBF30D3002083F7 /* InstantSearchSwiftUI in Frameworks */,
 				3BC1F9482DBF377E002083F7 /* InstantSearchInsights in Frameworks */,
 				3BC1F9462DBF3779002083F7 /* InstantSearch in Frameworks */,
+				3BC1F94D2DBF3BB1002083F7 /* FirebaseFirestore in Frameworks */,
 				3BC1F9442DBF3774002083F7 /* InstantSearchCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -107,6 +111,7 @@
 				3B00A1562DBBD90C00377F80 /* ContentView.swift */,
 				3B00A1582DBBD90D00377F80 /* Assets.xcassets */,
 				3B00A15A2DBBD90D00377F80 /* Preview Content */,
+				3BC1F9492DBF384F002083F7 /* addItem.swift */,
 			);
 			path = "InstantSearch iOS";
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 				3BC1F9432DBF3774002083F7 /* InstantSearchCore */,
 				3BC1F9452DBF3779002083F7 /* InstantSearch */,
 				3BC1F9472DBF377E002083F7 /* InstantSearchInsights */,
+				3BC1F94C2DBF3BB1002083F7 /* FirebaseFirestore */,
 			);
 			productName = "InstantSearch iOS";
 			productReference = 3B00A1512DBBD90C00377F80 /* InstantSearch iOS.app */;
@@ -239,6 +245,7 @@
 			mainGroup = 3B00A1482DBBD90C00377F80;
 			packageReferences = (
 				3BC1F9402DBF2F43002083F7 /* XCRemoteSwiftPackageReference "instantsearch-ios" */,
+				3BC1F94B2DBF3B96002083F7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 3B00A1522DBBD90C00377F80 /* Products */;
 			projectDirPath = "";
@@ -283,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B00A1572DBBD90C00377F80 /* ContentView.swift in Sources */,
+				3BC1F94A2DBF384F002083F7 /* addItem.swift in Sources */,
 				3B00A1552DBBD90C00377F80 /* InstantSearch_iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -623,6 +631,14 @@
 				minimumVersion = 7.26.4;
 			};
 		};
+		3BC1F94B2DBF3B96002083F7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.12.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -645,6 +661,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 3BC1F9402DBF2F43002083F7 /* XCRemoteSwiftPackageReference "instantsearch-ios" */;
 			productName = InstantSearchInsights;
+		};
+		3BC1F94C2DBF3BB1002083F7 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BC1F94B2DBF3B96002083F7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
